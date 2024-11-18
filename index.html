@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Profissionais</title>
+</head>
+
+<body>
+
+    <div class="mascara-formulario" onclick="esconderForm()"></div>
+
+    <div class="header">
+        <img src="./img/logo-header.png" alt="">
+        <a>Home</a>
+        <a>Nossos Serviços</a>
+        <a>Fale Conosco</a>
+    </div>
+
+    <div class="caixa-mae">
+        <div class="caixa-principal">
+            <img src="./img/logo (1).png" alt="" class="logo-mario">
+            <p>Encanadores Mario & Luigi - Resolvemos seus Problemas com Estilo!</p>
+            <p>Você já se encontrou em uma situação de emergência com encanamento? Vazamentos inesperados ou torneiras
+                que não param de pingar? Não se preocupe, porque estamos aqui para salvar vocês os encanadores mais
+                famosos do Reino dos Cogumelos - Mario & Luigi!</p>
+            <button onclick="mostrarForm()">ENTRE EM CONTATO</button>
+        </div>
+
+        <div>
+            <img src="./img/mario.png" alt="">
+        </div>
+    </div>
+
+    <div class="caixa-video">
+        <video src="./img/video.mp4" autoplay muted loop></video>
+        <div class="mascara"></div>
+    </div>
+
+    <a href="https://w.app/TVXingling" class="link-whatsapp">
+        <img src="./img/whatsapp.png" alt="">
+    </a>
+
+    <form action="https://formcarry.com/s/7oJeru4OWbc" method="POST" enctype="multipart/form-data"
+        class="formulario-fale-conosco">
+        <input type="text" placeholder="Seu Nome" type="text" name="nome">
+        <input type="text" placeholder="Seu Telefone" type="tel" name="telefone">
+        <textarea name="duvida" placeholder="Digite seu problema aqui"></textarea>
+        <button type="submit">Pedir Orçamento</button>
+    </form>
+
+</body>
+<script src="scripts.js"></script>
+
+</html>
